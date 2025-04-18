@@ -1,0 +1,51 @@
+/* Genel stil */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Mobil cihazlar için ek stil ayarları */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightgray;
+  }
+
+  .navigation-bar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .navigation-bar a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    display: block;
+  }
+
+  .intro {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .intro img {
+    width: 100%;
+    height: auto;
+  }
+
+  .intro_write {
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .intro_head {
+    color: #333;
+  }
+}
